@@ -83,7 +83,7 @@ const Contact = () => {
 
   return (
     <div className='Contact-info'>
-      <h1><b><center>Contact</center></b></h1>
+      <h1><b><center>CONTACT</center></b></h1>
       <fieldset>
         <form onSubmit={handleSubmit}>
           <label htmlFor="firstName">Name:*</label>

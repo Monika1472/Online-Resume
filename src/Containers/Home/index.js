@@ -6,7 +6,8 @@ import './index.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h3>Hi, I am Monika, a Software Developer</h3>
+      <h3>Hi, I am Monika</h3>
+        <h4>a Software Developer</h4>
 
       <div className="buttons">
       <Link to={"/About Me"}> 

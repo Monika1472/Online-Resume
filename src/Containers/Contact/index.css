@@ -1,93 +1,3 @@
-/* .Contact-info {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 28px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  label {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #444;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s ease;
-  }
-  
-  input:focus,
-  textarea:focus {
-    border-color: #007bff;
-  }
-  
-  .error {
-    color: red;
-    font-size: 14px;
-    margin-top: -10px;
-  }
-  
-  button {
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button[type="button"]:nth-of-type(1) {
-    background-color: #6c757d;
-    color: white;
-  }
-  
-  button[type="button"]:nth-of-type(2) {
-    background-color: #28a745;
-    color: white;
-  }
-  
-  button:hover {
-    opacity: 0.9;
-  }
-  
-  button:active {
-    transform: scale(0.98);
-  }
-  
-  @media (max-width: 768px) {
-    .Contact-info {
-      padding: 20px;
-    }
-  
-    h1 {
-      font-size: 24px;
-    }
-  }
-   */
 
    /* Global Styles */
    body {
@@ -101,15 +11,16 @@
     max-width: 600px;
     margin: 50px auto;
     padding: 30px; box-shadow: 0 4px 8px rgba(241, 93, 93, 0.1);
-    background-image: url('../../Assets/delicate-pink-white.jpg');
+    /* background-image: url('../../Assets/delicate-pink-white.jpg'); */
+    backdrop-filter: blur(10px); /* Adds a stronger glassmorphism effect */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
     border-radius: 10px;
-   
   }
   
   /* Form Header */
   h1 {
     margin-bottom: 20px;
-    color: #2351db;
+    color: #0b0b0b;
     text-align: center;
   }
   

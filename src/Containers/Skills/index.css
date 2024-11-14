@@ -1,43 +1,4 @@
-/* .Skills-Container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-  }
-  
-  .Skills-box {
-    width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(241, 93, 93, 0.1);
-    background-image: url('../../Assets/delicate-pink-white.jpg');
-  }
 
-  .Skills-box h3{
-    text-align: center;
-  }
-  
-  .Skills-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .Skills-items h6 {
-    flex: 1 1 30%; 
-    padding: 10px;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-
-   */
    @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -65,8 +26,10 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(241, 93, 93, 0.1);
-    background-image: url('../../Assets/delicate-pink-white.jpg');
-    background-color: #fff;
+    /* background-image: url('../../Assets/delicate-pink-white.jpg'); */
+    backdrop-filter: blur(10px); /* Adds a stronger glassmorphism effect */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    /* background-color: #fff; */
   }
   
   .Skills-box h3 {
@@ -83,6 +46,7 @@
   .Skills-items h6, .Tools-items h6 {
     flex: 1 1 30%; /* Allows three items per row */
     padding: 10px;
+    font-weight:900;
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 5px;
